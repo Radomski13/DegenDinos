@@ -1,0 +1,36 @@
+{
+  "name": "my-vue-app",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "routify -c dev:vite",
+    "dev:vite": "vite -m dev",
+    "prebuild": "routify -b -D",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "@roxi/routify": "^2.18.3",
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.7",
+    "@tailwindcss/forms": "^0.3.2",
+    "autoprefixer": "^10.2.5",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.3.0",
+    "prettier": "^2.3.2",
+    "prettier-plugin-svelte": "^2.4.0",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-globals": "^1.4.0",
+    "svelte": "^3.37.0",
+    "svelte-preprocess": "^4.7.2",
+    "svelte-preprocess-esbuild": "^2.0.0",
+    "tailwindcss": "^2.1.2",
+    "typescript": "^4.2.4",
+    "vite": "^2.3.3"
+  },
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "svelte-hamburgers": "^3.0.1",
+    "svelte-web3": "^3.3.2",
+    "web3": "^1.7.0",
+    "web3modal": "^1.9.5"
+  }
+}
